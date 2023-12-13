@@ -23,3 +23,5 @@ Below displays the shirt color HSV values needed for their respected colors:
 The following website was used to help identify the HSV ranges:
     https://web.cs.uni-paderborn.de/cgvb/colormaster/web/color-systems/hsv.html
     
+To make the video play at a slower rate, increase the number within the waitKey:
+    if cv2.waitKey(5) & 0xFF == ord('q'): #Increasing from 5 
